@@ -1,1 +1,401 @@
-margin
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 100vh;
+    background-color: #F5F7FA;
+}
+
+:root {
+    --white: rgb(255, 255, 255);
+}
+
+.cover {
+    width: 1200px;
+    /*help with adaptiv*/
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-bottom: -40px;
+    background-color: #1E2939;
+    padding: 20px 25px;
+}
+
+.menu a {
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    /*vertical center*/
+    padding: 15px 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.main-container {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    background-color: #fff;
+    margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main container section */
+
+.main-content-section {
+    padding: 100px 90px;
+}
+
+.main-content-title {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+/* about me section */
+
+.about-me-section {
+    margin: 0 0 40px 0;
+
+}
+
+.about-me-profession {
+    margin: 0 0 20px 0;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: bold;
+    color: #000;
+}
+
+.about-me-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 55px;
+    margin: 0 0 25px 0;
+    color: #000;
+}
+
+.about-me-destription {
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* my projects section */
+
+
+.my-projects-section {
+    margin: 0 0 50px 0;
+}
+
+.my-projects-list {
+    padding: 0 0 0 17px;
+}
+
+.my-projects-item {
+    color: #000;
+    font-weight: bold;
+}
+
+.my-projects-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-projects-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin-left: 5px;
+}
+
+.my-projects-bracket {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.my-projects-HTML5-CSS3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* my Work Experience */
+
+.my-Work-Experience-company {
+    color: #FB6D3A;
+}
+
+.my-Work-Experience-position {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.my-Work-Experience-period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;
+}
+
+.my-Work-Experience-divider {
+    color: #000;
+}
+
+.my-Work-Experience-duties {
+    padding: 0 0 0 18px;
+
+}
+
+.my-Work-Experience-duty {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.my-Work-Experience-Company-block {
+    margin: 0 0 15px 0;
+}
+
+.my-Work-Experience-Company-block2 {
+    margin: 0 0 20px 0;
+}
+
+.my-Work-Experience-Company-block1 {
+    margin: 0 0 45px 0
+}
+
+/* Education section */
+
+.main-content-title-Education {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin: 0 0 10px 0;
+}
+
+.main-content-title-Univer {
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.main-content-title-Management {
+    margin: 0 0 10px 0;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
+
+
+/* sidebar section */
+
+.foto {
+    width: 370px;
+    margin-top: -40px;
+
+}
+
+.sidebar-section {
+    background-color: #1E2939;
+    width: 370px;
+    padding: 40px 0;
+
+}
+
+.contacts-section,
+.tech-skills-section {
+    margin: 50px 0 0 40px;
+}
+
+.sidebar-title {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF
+}
+
+/* contacts-section */
+
+.contacts-section-type {
+    margin-right: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF
+}
+
+.contacts-section-link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #565E6A
+}
+
+/* tech-skills */
+
+.tech-skills-list {
+    padding: 0 0 0 17px;
+
+}
+
+.tech-skills-item {
+    color: #FB6D3A;
+
+}
+
+.tech-skills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+/* soft-skills */
+.soft-skills-section {
+    margin: 45px 0 0 0px;
+
+}
+
+.soft-skills-title {
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF
+}
+
+.soft-skills-list {
+    padding: 0 0 0 17px;
+}
+
+.soft-skills-item {
+    color: #FB6D3A;
+}
+
+.soft-skills-item-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.cod {
+
+        font-size: 14px;
+        line-height: 24px;
+color: #FFFFFF;
+}
+
+.cods{
+    font-size: 22px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+
+
+
+footer {
+    margin: -40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.git-visit {
+    margin-left: 10px;
+}
+
+.git {
+    display: flex;
+    align-items: center;
+}
+
+.git :hover {
+    text-decoration: underline;
+}
+
+.footer-link {
+    transition: 0.3s;
+    opacity: 70%;
+}
+
+.footer-link:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+}
+
+
