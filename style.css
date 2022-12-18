@@ -340,3 +340,43 @@ body {
 
 }
 
+footer {
+    margin: -40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+   
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.git-visit {
+    margin-left: 10px;
+}
+
+.git {
+    display: flex;
+    align-items: center;
+}
+
+.git :hover {
+    text-decoration: underline;
+}
+
+.footer-link {
+    transition: 0.3s;
+    opacity: 70%;
+}
+
+.footer-link:hover {
+    transform: scale(1.2);
+    opacity: 100%;
+}
+
+
